@@ -1,4 +1,4 @@
-package com.example.esport;
+package com.tp.esport;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
