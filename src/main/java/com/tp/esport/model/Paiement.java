@@ -11,20 +11,19 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name= "PRODUITS_DERIVES")
-public class ProduitsDerives {
+@Table(name= "PAIEMENT")
+public class Paiement {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    @Column(name = "ID_PRODUIT")
-    private int id;
+    @Column(name = "PAIEMENT_ID")
+    private int paiementId;
 
-    @Column(name = "CODE_PRODUIT")
-    private String codeProduit;
+    @Column(name = "PAYPAL")
+    private Boolean paypal;
 
-    @Column(name = "NOM_PRODUIT")
-    private String nomProduit;
-
+    @Column(name = "CARTE_BANCAIRE")
+    private Boolean carteBancaire;
 
 
 }
