@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+### BDD ###
+src/main/resources/esport.mv.db
+src/main/resources/esport.trace.db
+src/main/resources/application.properties
